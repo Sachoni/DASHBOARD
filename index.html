@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="android-chrome-512x512.png" type="image/png" />
-    <title>Butter Dashboard</title>
+    <title>Batter Superadmin Dashboard</title>
 
     <!-- Link to CSS -->
     <link rel="stylesheet" href="style.css">
@@ -19,7 +19,7 @@
     <aside class="sidebar">
         <h2 class="logo">Butter</h2>
         <hr style="padding: 10px;
-                   background: linear-gradient(to top right, #d4a017,#fff,#d4a017,#fff);">
+                   background: linear-gradient(to top right, #d4a017,#fff,#d4a017,#fff, #d4a017,#fff,#d4a017,#fff);">
 
         <nav>
             <ul>
@@ -30,6 +30,7 @@
                 <li><a href="settings.html">Settings</a></li>
             </ul>
         </nav>
+        
     </aside>
 
 
@@ -45,7 +46,8 @@
 
         <!-- Welcome Banner -->
         <section class="banner">
-            <h2>Welcome Back </h2>
+            <h2>Batter Status</h2>
+      <h1 id="status">Connecting...</h1>
             <p>Here’s what’s happening in your system today.</p>
         </section>
 
@@ -54,8 +56,8 @@
         <section class="cards">
 
             <div class="up-card">
-                <h3>Total Users</h3>
-                <p class="number">1,204</p>
+                <h2>Total Users</h2>
+                <h1 id="users-count">0</h1>
                 <a style="color: #d4a017;" href="allusers.html">View</a>
             </div>
 
@@ -87,6 +89,6 @@
 
     </main>
 </div>
-
+<script type="module" src="j.js"></script>
 </body>
 </html>
